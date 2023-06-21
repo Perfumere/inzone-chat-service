@@ -90,7 +90,8 @@ export default {
 
   mounted() {
     // 请求用户列表
-    socket = new ChannelSocket('ws://172.31.228.72:3030/ws');
+    // socket = new ChannelSocket('ws://172.31.228.72:3030/ws');
+    socket = new ChannelSocket('ws://117.50.180.192:3030/ws');
     // 0. 通过登录，获取当前用户的角色和专柜
     // 1. 区分客服和用户，加入专柜, 当前只有一个专柜id
 
