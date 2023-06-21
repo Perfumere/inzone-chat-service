@@ -1,0 +1,5 @@
+{
+  "appname": "inzone-chat-service",
+  "version": "1.0.0",
+  "host": "http://172.31.228.72:3020"
+}
